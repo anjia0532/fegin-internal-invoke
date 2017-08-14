@@ -30,10 +30,7 @@ public class ProfileInfoResource {
         this.jHipsterProperties = jHipsterProperties;
         this.fooFeignClient=fooFeignClient;
     }
-    @GetMapping("/current-login")
-    public String getCurrentLogin() {
-        return fooFeignClient.getCurrentLogin();
-    }
+
     @GetMapping("/profile-info")
     public ProfileInfoVM getActiveProfiles() {
         String[] activeProfiles = DefaultProfileUtil.getActiveProfiles(env);
