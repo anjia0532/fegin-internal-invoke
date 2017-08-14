@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.anjia0532.bar",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "4.4.1",
+    "baseName": "bar",
+    "packageName": "com.anjia0532.bar",
+    "packageFolder": "com/anjia0532/bar",
+    "serverPort": "8089",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "d184849089f7f537f53d131cde1ccd022e95adaa",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientPackageManager": "yarn"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.anjia0532.uaa",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "4.4.1",
+    "baseName": "uaa",
+    "packageName": "com.anjia0532.uaa",
+    "packageFolder": "com/anjia0532/uaa",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "a155393944d48121d990fbf3781d0ee69b3b754a",
+    "enableTranslation": true,
+    "applicationType": "uaa",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "nativeLanguage": "zh-cn",
+    "languages": [
+      "zh-cn"
+    ],
+    "clientPackageManager": "yarn"
+  }
+}
