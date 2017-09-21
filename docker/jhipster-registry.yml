@@ -12,6 +12,7 @@ services:
             - SPRING_PROFILES_ACTIVE=dev,native
             - SECURITY_USER_PASSWORD=admin
             - JHIPSTER_REGISTRY_PASSWORD=admin
+            -_JAVA_OPTIONS=-Xmx512m -Xms256m
             # - GIT_URI=https://github.com/jhipster/jhipster-registry/
             # - GIT_SEARCH_PATHS=central-config
         ports:
