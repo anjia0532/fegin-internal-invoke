@@ -1,6 +1,6 @@
 package com.anjia0532.bar;
 
-import com.anjia0532.bar.client.OAuth2InterceptedFeignConfiguration;
+import com.anjia0532.bar.client.OAuth2ServiceClientFeignConfiguration;
 import com.anjia0532.bar.config.ApplicationProperties;
 import com.anjia0532.bar.config.DefaultProfileUtil;
 
@@ -25,7 +25,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @ComponentScan(
-    excludeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = OAuth2InterceptedFeignConfiguration.class)
+    excludeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = OAuth2ServiceClientFeignConfiguration.class)
 )
 @EnableAutoConfiguration(exclude = {MetricFilterAutoConfiguration.class, MetricRepositoryAutoConfiguration.class})
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})

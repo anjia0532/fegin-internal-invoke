@@ -31,6 +31,15 @@
     "languages": [
       "zh-cn"
     ],
-    "clientPackageManager": "yarn"
+    "clientPackageManager": "yarn",
+    "appsFolders": [
+      "bar",
+      "foo",
+      "gateway",
+      "uaa"
+    ],
+    "directoryPath": "../",
+    "monitoring": "no",
+    "adminPassword": "admin"
   }
 }

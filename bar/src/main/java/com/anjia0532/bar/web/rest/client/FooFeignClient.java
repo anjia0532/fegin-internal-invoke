@@ -4,12 +4,10 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.anjia0532.bar.client.AuthorizedFeignClient;
-
-import feign.Headers;
+import com.anjia0532.bar.client.AuthorizedUserFeignClient;
 
 
-@AuthorizedFeignClient(name="foo",fallback=FooFeignClientFallback.class)
+@AuthorizedUserFeignClient(name="foo",fallback=FooFeignClientFallback.class)
 public interface FooFeignClient {
 
     @RequestMapping(value = "/api/current-login",
